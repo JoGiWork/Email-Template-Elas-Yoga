@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless-template.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>Template de correo electrónico Elas Yoga Studio</title>
+</head>
+<body>
+    <div class="body-correo">
+        <div class="cabecera-correo">
+            <h1>¡Has cancelado tu {{clase}}!</h1>
+        </div>
+        <div class="content">
+            <p>Estimado/a {{Usuario}}, le confirmamos que tu solicitud de cancelación para {{clase, taller, grupo}} del día {{dia}} a la hora {{hora}} ha sido procesada correctamente.</p>
+            <div class="botones-flex">
+                <a href="#" class="button button-panel">Ir a mi panel</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Este es un correo generado automáticamente. Por favor, no responda a este mensaje.</p>
+            <p>&copy; 2024 Elas Yoga Studio. Todos los derechos reservados.</p>
+        </div>
+    </div>
+</body>
+</html>

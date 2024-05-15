@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styless-template.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
     <title>Template de correo electrónico Elas Yoga Studio</title>
 </head>
 <body>
     <div class="body-correo">
         <div class="cabecera-correo">
-            <h1>¡Te has inscrito a una clase correctamente!</h1>
+            <h1>¡Te has inscrito a {{grupo, clase, taller}}!</h1>
         </div>
         <div class="content">
-            <p>Estimado/a {{Usuario}},<br><br>Tu inscripción para la {{clase}} del día {{clase}} el día {{Fecha}} a la hora {{hora}} ha sido procesada con éxito.<br><br>
+            <p>Estimado/a {{Usuario}},<br><br>Tu inscripción para la {{clase}} del día {{día}} el día {{Fecha}} a la hora {{hora}} ha sido procesada con éxito.<br><br>
             Si desea realizar modificaciones, o ver todas sus inscripciones puede ir al panel de usuario dando clic al siguiente botón.<br><br>
             Prepara tu mente y cuerpo para una experiencia increíble. Nos vemos pronto en clase.</p>
             <div class="botones-flex">
