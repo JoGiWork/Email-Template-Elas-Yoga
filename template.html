@@ -12,9 +12,14 @@
             <h1>¡Te has inscrito a una clase correctamente!</h1>
         </div>
         <div class="content">
-            <p>Estimado/a {{Usuario}},<br><br>ha solicitado correctamente la inscripción a la clase {{clase}} el día {{Fecha}} a las {{hora}}.<br><br>
+            <p>Estimado/a {{Usuario}},<br><br>Tu inscripción para la {{clase}} del día {{clase}} el día {{Fecha}} a la hora {{hora}} ha sido procesada con éxito.<br><br>
             si desea realizar modificaciones, o ver todas sus inscripciones puede ir al panel de usuario dando clic al siguiente botón.</p>
-            <a href="#" class="button">Ir a mi panel</a>
+            <div class="botones-flex">
+                <a href="#" class="button button-panel">Ir a mi panel</a>
+                <! -- Aqui hay que hacer que este botón cancele la clase, o bien con una url de cancelación y parámetros dinámicos de la clase, o bien, llevarlo a la clase justa y mostrarle el btn de cancelar clase. -->
+                <a href="#" class="button button-inscription">Anular Inscripción</a>
+            </div>
+            <p>Prepara tu mente y cuerpo para una experiencia increíble. Nos vemos pronto en clase.</p>
         </div>
         <div class="footer">
             <p>Este es un correo generado automáticamente. Por favor, no responda a este mensaje.</p>

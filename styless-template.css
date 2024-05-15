@@ -46,7 +46,6 @@ h1{
     color: #888888;
     margin-top: 20px;
     padding: 0px 80px;
-    flex-basis: 3;
 }
 .button {
     display: inline-block;
@@ -67,5 +66,13 @@ h1{
     padding: 40px;
     font-size: 1.6rem;
     line-height: 1.6rem;
-    flex-basis: 2;
+}
+.botones-flex{
+    width: 90%;
+    display: flex;
+    column-gap: 20px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    padding: 0px 40px;
 }
