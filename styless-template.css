@@ -55,11 +55,15 @@ h1{
     text-decoration: none;
     border-radius: 20px;
     margin-top: 20px;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
 .button:hover{
     transform: scale(108%);
+}
+
+.button-inscription:hover{
+    background-color: red;
 }
 
 .tabla-de-clases{
