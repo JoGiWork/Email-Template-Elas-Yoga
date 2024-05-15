@@ -1,0 +1,71 @@
+html{
+    font-size: 62.5%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    font-family: Arial, sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+.body-correo {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 40px 20px 40px;
+    border: 1px solid #dddddd;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.cabecera-correo {
+    background-color: #A78D76;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.content {
+    padding: 20px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.content p{
+    text-align: justify;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding: 20px;
+}
+.footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #888888;
+    margin-top: 20px;
+    padding: 0px 80px;
+    flex-basis: 3;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #A78D76;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.button:hover{
+    transform: scale(108%);
+}
+
+.tabla-de-clases{
+    padding: 40px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    flex-basis: 2;
+}
