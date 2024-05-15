@@ -17,7 +17,7 @@ h1{
     background-color: #ffffff;
     padding: 20px 40px 20px 40px;
     border: 1px solid #dddddd;
-    row-gap: 50px;
+    row-gap: 40px;
     display: flex;
     flex-direction: column;
 }
