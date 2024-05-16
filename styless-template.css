@@ -66,12 +66,6 @@ h1{
 .button-inscription:hover{
     background-color: red;
 }
-
-.tabla-de-clases{
-    padding: 40px;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-}
 .botones-flex{
     width: 90%;
     display: flex;
